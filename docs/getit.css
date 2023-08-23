@@ -29,10 +29,11 @@ body {
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+.btn {
   position: relative;
   display: block;
   padding: 10px 15px;
+
 
   overflow: hidden;
 
@@ -77,7 +78,7 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+} 
 
 .appbar {
   background: #f7d74a; 
@@ -99,4 +100,30 @@ body {
   margin-left: 10px;
   font-size: 13px;
 }
+
+.container{
+  padding-top: 25px;
+  padding-left: 45px;
+  padding-right: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.form-card{
+  background: #fff; 
+  height: 100px;
+  width: 450px;
+  display:flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  box-shadow: 0 3px 10px  rgba( 0, 0, 0, 0.6);
+  border-radius: 3px;
+  align-items: left;
+  padding: 12px 10px 8px 10px;
+}
+
+
 
